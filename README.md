@@ -14,9 +14,16 @@ MagicMirror module for external web widgets
 ## Installation
 ```shell
 cd ~/MagicMirror/modules/
-git clone https://github.com/ulrichwisser/MMM-HTMLSnippet
+git clone https://github.com/ulrichwisser/MMM-HTMLSnippet.git
+cd MMM-HTMLSnippet
+npm i
 ```
-
+### Audit fix
+ ```
+ npm audit fix --force
+ ```
+ 
+ 
 ## Configuration
 ### Format
 ```javascript
